@@ -62,7 +62,7 @@ nano hosts
 
 #COREBABA
 [switch]
-10._.1.4
+10.32.1.4
 
 [switch:vars]
 ansible_user=admin
@@ -74,7 +74,7 @@ ansible_ssh_common_args="-oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-c
 
 #CUCM
 [cucm]
-10._.100.8
+10.32.100.8
 
 [cucm:vars]
 ansible_user=admin
@@ -85,7 +85,7 @@ ansible_network_os=ios
 
 #EDGE
 [edge]
-10._._.1
+10.32.32.1
 
 [edge:vars]
 ansible_user=admin
@@ -96,7 +96,7 @@ ansible_network_os=ios
 
 #ACCESS POINT
 [ap]
-10._.10.3
+10.32.10.3
 
 [ap:vars]
 ansible_user=admin
@@ -280,7 +280,7 @@ TRY THE SSH CONNECTION
 
 CORE BABA 
 
-ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc admin@10._.1.4
+ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc admin@10.32.1.4
 
 ************************************************************************
 Create Alias on Linux - FOR COREBABA
